@@ -53,7 +53,10 @@ body {
   text-transform : uppercase;
   color : black;
   }
-  .site-footer {
+  /*aria roles*/
+  .site-footer 
+    [role="banner"]
+    {
   padding : 2rem 0;
   background-color : #333;
   color : white;
@@ -78,5 +81,8 @@ body {
   font-size : 2rem;
   text-decoration : none;
   background-color : #333;
-  color : white;
+  }
+/*schema information here*/
+ [itemprop]
+ {color : white;
   }
